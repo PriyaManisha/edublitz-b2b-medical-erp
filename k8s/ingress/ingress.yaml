@@ -33,6 +33,9 @@ metadata:
     # Security groups
     alb.ingress.kubernetes.io/security-groups: sg-04ff9e654de751e40
 
+    # ---> ADD YOUR SUBNETS HERE <---
+    alb.ingress.kubernetes.io/subnets: subnet-0d3e908adba112891, subnet-0b5a24e9f1bf23895, subnet-03ddcebc65c5e4f73
+
     # Tags
     alb.ingress.kubernetes.io/tags: "Environment=production,Project=med-erp"
 spec:
