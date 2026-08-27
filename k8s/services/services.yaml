@@ -7,6 +7,8 @@ metadata:
   namespace: med-erp
   labels:
     app: user-service
+  annotations:
+    alb.ingress.kubernetes.io/vpc-id: vpc-08c601aa3fe47fd5c
 spec:
   type: ClusterIP
   selector:
@@ -26,6 +28,8 @@ metadata:
   namespace: med-erp
   labels:
     app: product-service
+  annotations:
+    alb.ingress.kubernetes.io/vpc-id: vpc-08c601aa3fe47fd5c
 spec:
   type: ClusterIP
   selector:
@@ -45,6 +49,8 @@ metadata:
   namespace: med-erp
   labels:
     app: order-service
+  annotations:
+    alb.ingress.kubernetes.io/vpc-id: vpc-08c601aa3fe47fd5c
 spec:
   type: ClusterIP
   selector:
