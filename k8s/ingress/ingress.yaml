@@ -36,6 +36,8 @@ metadata:
     # ---> ADD YOUR SUBNETS HERE <---
     alb.ingress.kubernetes.io/subnets: subnet-0d3e908adba112891, subnet-0b5a24e9f1bf23895, subnet-03ddcebc65c5e4f73
 
+    alb.ingress.kubernetes.io/vpc-id: vpc-08c601aa3fe47fd5c
+
     # Tags
     alb.ingress.kubernetes.io/tags: "Environment=production,Project=med-erp"
 spec:
